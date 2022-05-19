@@ -294,29 +294,38 @@
               <h4>D Major</h4>
               <div>
                 <button on:click={playScale('D', 'notes')}>Notes</button>
-                <button on:click={playScale('D', 'thirds')}>Thirds</button>
+                <button on:click={playScale('D', 'thirds')}>Thirds*</button>
               </div>
             </div>
             <div class="scale">
-              <h4>F Major</h4>
+              <h4>E Major</h4>
               <div>
-                <button on:click={playScale('F', 'notes')}>Notes</button>
-                <button on:click={playScale('F', 'thirds')}>Thirds</button>
+                <button on:click={playScale('E', 'notes')}>Notes</button>
+                <button on:click={playScale('E', 'thirds')}>Thirds*</button>
               </div>
             </div>
-            <div class="scale">
-              <h4>B♭ Major</h4>
-              <div>
-                <button on:click={playScale('Bb', 'notes')}>Notes</button>
-                <button on:click={playScale('Bb', 'thirds')}>Thirds</button>
-              </div>
+          </div>
+        </div>
+        <div class="scales">
+          <div class="scale">
+            <h4>F Major</h4>
+            <div>
+              <button on:click={playScale('F', 'notes')}>Notes</button>
+              <button on:click={playScale('F', 'thirds')}>Thirds</button>
             </div>
-            <div class="scale">
-              <h4>E♭ Major</h4>
-              <div>
-                <button on:click={playScale('Eb', 'notes')}>Notes</button>
-                <button on:click={playScale('Eb', 'thirds')}>Thirds</button>
-              </div>
+          </div>
+          <div class="scale">
+            <h4>B♭ Major</h4>
+            <div>
+              <button on:click={playScale('Bb', 'notes')}>Notes</button>
+              <button on:click={playScale('Bb', 'thirds')}>Thirds</button>
+            </div>
+          </div>
+          <div class="scale">
+            <h4>E♭ Major</h4>
+            <div>
+              <button on:click={playScale('Eb', 'notes')}>Notes</button>
+              <button on:click={playScale('Eb', 'thirds')}>Thirds</button>
             </div>
           </div>
         </div>
