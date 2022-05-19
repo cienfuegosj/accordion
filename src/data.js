@@ -132,7 +132,7 @@ export const three = [
   { id: '3-9-pull', name: 'C', frequency: tone.C[6] },
   { id: '3-10-pull', name: 'D', frequency: tone.D[6] },
   // Push
-  { id: '3-1-push', name: 'D♭', frequency: tone.Db[4] },
+  { id: '3-1-push', name: 'D♭', frequency: tone.Db[5] },
   { id: '3-2-push', name: 'B♭', frequency: tone.Bb[3] },
   { id: '3-3-push', name: 'E♭', frequency: tone.Eb[4] },
   { id: '3-4-push', name: 'G', frequency: tone.G[4] },
@@ -200,7 +200,29 @@ export const scales = {
       ['2-5-pull', '3-1-pull'],
       ['2-6-pull', '3-5-pull'],
       ['3-1-pull', '3-6-pull'],
-      ['3-5-pull', '1-9-pull']
+      ['3-5-pull', '1-9-pull'],
+    ]
+  },
+  D: {
+    notes: [
+      ['1-4-pull'],
+      ['1-5-pull'],
+      ['2-1-pull'],
+      ['2-5-pull'],
+      ['2-6-pull'],
+      ['3-1-pull'],
+      ['3-1-push'],
+      ['3-6-pull'],
+    ],
+    thirds: [
+      ['1-4-pull', '2-1-pull'],
+      ['1-5-pull', '2-5-pull'],
+      ['2-1-pull', '2-6-pull'],
+      ['3-1-pull', '2-5-pull'],
+      ['3-1-push', '1-6-push'],
+      ['3-1-pull', '3-6-pull'],
+      ['3-1-push', '2-1-push'],
+      ['3-6-pull', '2-1-pull'],
     ]
   },
   F: {
