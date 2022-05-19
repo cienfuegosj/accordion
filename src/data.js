@@ -181,6 +181,28 @@ export const bassLayout = {
 
 // Scales
 export const scales = {
+  C: {
+    notes: [
+      ['2-3-pull'],
+      ['1-4-pull'],
+      ['1-5-pull'],
+      ['3-3-pull'],
+      ['2-5-pull'],
+      ['2-6-pull'],
+      ['3-1-pull'],
+      ['3-5-pull'],
+    ],
+    thirds: [
+      ['2-3-pull', '1-5-pull'],
+      ['1-4-pull', '3-3-pull'],
+      ['1-5-pull', '2-5-pull'],
+      ['3-3-pull', '2-6-pull'],
+      ['2-5-pull', '3-1-pull'],
+      ['2-6-pull', '3-5-pull'],
+      ['3-1-pull', '3-6-pull'],
+      ['3-5-pull', '1-9-pull']
+    ]
+  },
   F: {
     notes: [
       ['3-3-pull'],

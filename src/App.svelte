@@ -284,6 +284,15 @@
           <h3>Major Scales</h3>
           <div class="scales">
             <div class="scale">
+              <h4>C Major</h4>
+              <div>
+                <button on:click={playScale('C', 'notes')}>Notes</button>
+                <button on:click={playScale('C', 'thirds')}>Thirds</button>
+              </div>
+            </div>
+          </div>
+          <div class="scales">
+            <div class="scale">
               <h4>F Major</h4>
               <div>
                 <button on:click={playScale('F', 'notes')}>Notes</button>
