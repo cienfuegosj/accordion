@@ -269,6 +269,50 @@ export const scales = {
       ['2-10-pull', '3-7-pull'],
     ],
   },
+  G_: {
+    notes: [
+      ['1-2-pull'],
+      ['2-2-pull'],
+      ['1-1-push'],
+      ['2-3-pull'],
+      ['1-4-pull'],
+      ['1-5-pull'],
+      ['2-1-pull'],
+      ['2-5-pull']
+    ],
+    thirds: [
+      ['1-2-pull', '3-1-pull'],
+      ['2-2-pull', '2-3-pull'],
+      ['1-1-push', '2-4-push'],
+      ['2-3-pull', '1-5-pull'],
+      ['1-4-pull', '2-1-pull'],
+      ['1-5-pull', '2-5-pull'],
+      ['2-1-pull', '2-6-pull'],
+      ['3-4-push', '1-1-push']
+    ]
+  },
+  G: {
+    notes: [
+      ['2-5-pull'],
+      ['2-6-pull'],
+      ['3-1-pull'],
+      ['3-5-pull'],
+      ['3-6-pull'],
+      ['1-9-pull'],
+      ['2-1-pull'],
+      ['2-9-pull']
+    ],
+    thirds: [
+      ['2-5-pull', '3-1-pull'],
+      ['2-6-pull', '3-5-pull'],
+      ['3-1-pull', '3-6-pull'],
+      ['3-5-pull', '1-9-pull'],
+      ['3-6-pull', '2-1-pull'], // sexta
+      ['1-9-pull', '2-9-pull'],
+      ['2-1-pull', '2-6-pull'], // sexta
+      ['2-9-pull', '3-1-pull'], // sexta
+    ],
+  },
   Bb: {
     notes: [
       ['1-3-pull'],

@@ -315,6 +315,17 @@
             </div>
           </div>
           <div class="scale">
+            <h4>G Major</h4>
+            <div>
+              <button on:click={playScale('G_', 'notes')}>Lower Notes</button>
+              <button on:click={playScale('G_', 'thirds')}>Lower Thirds</button>
+            </div>
+            <div>
+              <button on:click={playScale('G', 'notes')}>Notes</button>
+              <button on:click={playScale('G', 'thirds')}>Thirds*</button>
+            </div>
+          </div>
+          <div class="scale">
             <h4>B♭ Major</h4>
             <div>
               <button on:click={playScale('Bb', 'notes')}>Notes</button>
