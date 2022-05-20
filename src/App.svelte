@@ -190,7 +190,8 @@
     handleClearAllNotes()
 
     for (const id of idSet) {
-      // handleToggleBellows('pull')
+      const [row, col, newDirection] = id.split('-');
+      handleToggleBellows(newDirection);
       if (!activeButtonIdMap[id]) {
         const { oscillator } = playTone(id)
 
