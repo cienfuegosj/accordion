@@ -199,7 +199,7 @@
       }
     }
 
-    await sleep(600)
+    await sleep(200)
 
     for (const id of idSet) {
       stopTone(id)
@@ -376,8 +376,11 @@
         </div>
       </div>
     </div>
-
     <div class="bass-side">
+      <div>
+        <h3>Timing Options</h3>
+        <input type="range" min="1" max="100" value="50">
+      </div>
       <div class="desktop-only accordion-layout">
         {#each bassRows as row}
           <div class="row {row}">
