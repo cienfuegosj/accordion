@@ -187,7 +187,7 @@
   }
 
   async function playNotesInScale(idSet) {
-    handleClearAllNotes()
+    handleClearAllNotes();
 
     for (const id of idSet) {
       const [row, col, newDirection] = id.split('-');
@@ -218,6 +218,8 @@
     for (const idSet of scaleBackAndForth) {
       await playNotesInScale(idSet)
     }
+
+    direction = 'pull'; // reset the direction to pull once done
   }
 </script>
 
