@@ -295,6 +295,13 @@
                 <button on:click={playScale('A', 'thirds')}>Thirds</button>
               </div>
             </div>
+            <div class="scale">
+              <h4>B Major</h4>
+              <div>
+                <button on:click={playScale('B', 'notes')}>Notes</button>
+                <button on:click={playScale('B', 'thirds')}>Thirds</button>
+              </div>
+            </div>
           </div>
           <div class="scales">
             <div class="scale">

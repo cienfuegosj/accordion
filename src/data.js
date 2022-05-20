@@ -225,6 +225,28 @@ export const scales = {
       ['1-9-push', '3-1-push'] // sexta
     ],
   },
+  B: {
+    notes: [
+      ['1-1-push'],
+      ['1-1-pull'],
+      ['2-4-pull'],
+      ['1-5-pull'],
+      ['2-1-pull'],
+      ['3-4-pull'],
+      ['1-7-pull'],
+      ['3-1-pull']
+    ],
+    thirds: [
+      ['1-1-push', '3-3-push'],
+      ['1-1-pull', '1-5-pull'],
+      ['2-1-pull', '2-4-pull'],
+      ['1-5-pull', '3-4-pull'],
+      ['2-1-pull', '1-7-pull'],
+      ['3-1-pull', '3-4-pull'],
+      ['3-1-push', '3-5-push'],
+      ['3-1-pull', '2-8-pull']
+    ]
+  },
   C: {
     notes: [
       ['2-3-pull'],
