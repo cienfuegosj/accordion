@@ -181,6 +181,50 @@ export const bassLayout = {
 
 // Scales
 export const scales = {
+  A_: {
+    notes: [
+      ['2-2-pull'],
+      ['1-1-push'],
+      ['1-1-pull'],
+      ['3-2-pull'],
+      ['1-5-pull'],
+      ['2-1-pull'],
+      ['3-4-pull'],
+      ['2-6-pull']
+    ],
+    thirds: [
+      ['2-2-pull', '1-1-pull'],
+      ['1-1-push', '2-4-push'],
+      ['1-1-pull', '1-5-pull'],
+      ['1-4-pull', '2-1-pull'],
+      ['1-5-pull', '3-4-pull'],
+      ['2-1-pull', '2-6-pull'],
+      ['3-1-pull', '3-4-pull'],
+      ['3-1-push', '1-6-push']
+    ]
+  },
+  A: {
+    notes: [
+      ['2-6-pull'],
+      ['3-1-pull'],
+      ['3-1-push'],
+      ['3-6-pull'],
+      ['1-9-pull'],
+      ['2-1-pull'],
+      ['3-8-pull'],
+      ['2-10-pull']
+    ],
+    thirds: [
+      ['1-6-push', '3-1-push'],
+      ['3-1-pull', '3-6-pull'],
+      ['3-1-push', '2-1-push'], // sexta
+      ['3-6-pull', '2-1-pull'],
+      ['3-4-pull', '1-9-pull'], // sexta
+      ['2-1-pull', '2-6-pull'],
+      ['3-1-pull', '3-8-pull'],
+      ['1-9-push', '3-1-push'] // sexta
+    ],
+  },
   C: {
     notes: [
       ['2-3-pull'],
